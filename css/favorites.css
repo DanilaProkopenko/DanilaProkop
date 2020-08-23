@@ -1,0 +1,53 @@
+/*------------------glavnaya*/
+
+.imageGroup{
+	align-items: center;
+	justify-content: space-between;
+}
+
+.mainImage{
+	margin: 20px;
+	display: inline-block;
+}
+
+.mainImage p{
+	margin: 10px;
+	font-size: 20px;
+}
+
+.someImage{
+	z-index: 5;
+	width:250px;
+	height: 250px;
+	background-color: #ECECEC; 
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px; 
+}
+
+.main a{
+	text-decoration: none;
+	color: black
+}
+
+.cart_button button{
+	margin-top: 7px;
+	background: rgba(231, 231, 231, 0.5);
+	border: none;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 5px 35px;
+}
+
+.line{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: grey;
+	background-color: grey;
+	border-radius: 10px;
+	border: 0px none;
+	height: 2px;
+	margin-top: 15px;
+}
+
+

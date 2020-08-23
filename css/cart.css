@@ -1,0 +1,229 @@
+.product{
+	background-color: white;
+	box-shadow: 0px 0px 12px;
+	border-radius: 10px;
+	width: 70%;
+	padding: 10px;
+	display: inline-block;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.flex_product{
+	display: flex;
+	width: 100%;
+}
+.image_product{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px; 
+}
+
+.all_group{
+	display: flex;
+	flex-direction: column; 
+	justify-content: space-between;
+	width: 100%;
+	margin-left: 15px;
+}
+
+.group_name{
+	
+}
+
+.name_plus_col{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 20px;
+	font-size: 17px;
+}
+
+.name_thing{
+	text-align: left;	
+	font-size: 20px;
+}
+
+.name_product{
+	font-size: 17px;
+}
+	
+
+.number_product{
+}
+
+.line{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: grey;
+	background-color: grey;
+	border-radius: 10px;
+	border: 0px none;
+	height: 2px;
+
+}
+
+.niz{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	font-size: 15px;
+}
+
+.button_two{
+	display: flex;
+	align-items: baseline;
+}
+
+.favorite button{
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	color: black;
+}
+
+.favorite{
+	margin-right: 15px;
+
+}
+
+.delete{
+	margin-right: 15px;
+	margin-right: 15px;
+}
+
+.delete button{
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.cost{
+	margin-right: 20px;
+}
+
+.minus-goods, .plus-goods {
+	border: none;
+	font-size: 20px;
+	background-color: transparent;
+	margin: 2px;
+}
+
+.minus-goods{
+	transform: translateY(1px);
+	font-size: 25px;
+
+}
+
+/*-------------итоговая цена*/
+
+.itogo{
+	color: black;
+	font-size: 25px; 
+	display: block;
+}
+
+.itogo .line{
+	color: grey;
+	background-color: grey;
+	border-radius: 10px;
+	border: 0px none;
+	height: 2px;
+	margin: 20px;
+}
+
+.flex_itogo{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+.text_itogo{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+.col_all_product {
+	margin-bottom: 5px;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.col_text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.col_number {
+
+}
+
+.all_coast {
+	margin-bottom: 20px;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.all_coast_text {
+	
+}
+
+.coast_number {	
+
+}
+
+.knopka{
+	width: 100%;
+}
+.knopka button {	
+	font-size: 25px; 
+	border: none;
+	background-color: rgba(196, 196, 196, 0.5); 
+	padding: 10px;
+	border-radius: 15px;
+	width: 100%; 
+}
+
+/*Отпрвка*/
+
+.ename {
+	margin-right: 33px;
+}
+.email {
+	margin-right: 25px;
+}
+.ephone {
+	margin-right: 5px;
+}
+.eadres{
+	margin-right: 21px;
+}
+
+#ephone, #email, #eadres, #ename {
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+
+
+.send-email {
+	margin-right:-10px;
+	font-size: 30px;
+	padding: 10px;
+	border-radius: 20px;
+	border:none;
+	background-color: lightgrey;
+	margin-top: 10px;
+}
+.send-email:hover {
+	background-color: rgba(144, 238, 144, 0.5);
+	transition: 2s;
+}

@@ -1,0 +1,173 @@
+/*-------------слайдер галерея-------------*/
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+	/* overflow: hidden; ограничивает видимость только блоком, нельза прописать красиво тень */
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{
+}
+
+/*Конкретный слайдер*/
+.slider{
+	height: 90%;
+	padding: 10px 0;
+	position: relative;
+
+}
+.slider .slick-slide{
+	margin: 0 15px;
+}
+.slider .slick-arrow{
+	position: absolute;
+	top: 40%;
+	margin: -10px 0 0 0;
+	z-index: 2;
+	font-size: 0;
+}
+.slider .slick-arrow.slick-prev{
+	left: 10px;
+	border: none;
+	background: url("../img/arrow_left.png") 0 0/ 50% no-repeat;
+	width: 50px;
+	height: 50px;
+}
+.slider .slick-arrow.slick-next{
+	right: -20px;
+	border: none;
+	background: url('../img/arrow_right.png') 0 / 50% no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.slider .slick-dots{
+	display: flex;;
+	align-items:center;
+	justify-content: center;
+}
+.slider .slick-dots li{
+	list-style: none;
+	margin: 0 10px;
+}
+/* Активная точка */
+.slider .slick-dots li.slick-active button{
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 1;
+}
+/* Элемент точки */
+.slider .slick-dots li button{
+	font-size: 0px;
+	width: 15px;
+	height: 15px;
+	background-color: rgba(240, 240, 240, 1);
+	opacity: 0,5;
+	border:none;
+	border-radius: 100%;
+	margin-top: 20px;
+}
+
+.slider__item{
+	transition: all 0.3s ease 0s;
+	opacity: 0.4;
+	text-align: center;
+}
+.slider__item.slick-center{
+	opacity: 1;
+}
+
+.slider img{
+	box-shadow: 0px 0px 12px;
+	border-radius: 10px;
+	width: 50%;
+}
+
+
+.main{overflow-x:hidden;}
+
+
+/*-------------таблица описание-------------*/
+table{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	font-size: 20px;
+	border-collapse: collapse;
+	margin-top: 3%;
+	text-align: center;
+
+}
+td{
+	text-align: left;
+	border-spacing: 10px 10px;
+	padding: 5px;
+
+}
+
+/*-------------кнопка корзины-------------*/
+
+.container button{
+	margin-top: 3%;
+	border: none;
+	background: rgba(231, 231, 231, 0.5);
+	border-radius: 15px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.container button:hover {
+	background-color: rgba(144, 238, 144, 0.5);
+	transition: 2s;
+}
+
+.cart{
+	width: 500px;
+	height: 50px;
+	background: rgba(231, 231, 231, 0.5);
+	border-radius: 15px;
+	padding: 10px 0;
+	font-size: 40px;
+}
+
+.hearts{
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+
+.cart, .hearts{
+	float: left;
+	display: inline-block;
+}

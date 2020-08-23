@@ -1,0 +1,100 @@
+/*------------для всего*/
+*{	
+	margin:0;
+	padding: 0;
+}
+
+.container{
+	width: 80%;
+	margin-left: 10%;
+}
+
+.main{
+	width: 100%;
+	padding-top:70px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+
+/*------------для шапки*/
+header{
+	font-family: Arial;
+	width: 100%;
+	background-color: rgba(231, 231, 231, 0.5);
+	backdrop-filter: blur(5px);
+	position: fixed;
+	font-size:20px;
+	padding: 0px;
+	z-index: 10; /* не дает элементам залесть поверх */
+}
+
+header ul{
+	list-style: none;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: black;
+}
+header ul li a:hover{
+	color: white;
+}
+
+header li{
+	display: inline-block;
+	float: right;
+}
+header .linkesHeaderText{
+	margin: 5px 10px 0 0;
+}
+
+header li.linkesHeaderLogo{
+	float: left;
+}
+
+header li .linkesHeader{
+	float: right;
+	margin: 0 23px;
+}
+
+header li .imageHeaderLogo{
+	width: 30px;
+	height: 30px;
+}
+.imageHeaderHeart{
+	margin: 6px 2px 0 10px;
+	width: 20px;
+	height: 20px;
+}
+.imageHeaderCart{
+	margin: 5px 2px 0 2px;
+	width: 23px;
+	height: 23px;
+}
+
+/*------------для footera*/
+footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: both;
+	width: 100%;
+	font-size: 20px;
+	background-color: #ECECEC;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: black;
+}
+footer ul li a:hover{
+	color: white;
+}
+footer li{
+	text-align: center;
+}
+
